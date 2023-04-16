@@ -15,7 +15,7 @@ header {
 }
 header h1 {
   font-style:italic;
-  font-size:80px;
+  font-size:60px;
   align-items: center;
   
 }
@@ -163,7 +163,7 @@ footer p {
 
 @media (max-width: 480px) {
   header {
-    background-color:rgb(146, 156, 52)
+    background-color:rgb(235, 179, 75)
   }
   header ul {
     flex-direction: column;
