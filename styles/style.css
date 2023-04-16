@@ -6,7 +6,7 @@
 
 /*comienzo de estilos en header*/
 header {
-  background-color: rgb(61, 155, 155);
+  background-color: rgb(240, 197, 162);
   padding: 20px;
   display: flex;
   /*flex-direction: row;*/
@@ -14,9 +14,10 @@ header {
   align-items: center;
 }
 header h1 {
-  font-style: italic;
-  font-size: 70px;
+  font-style:italic;
+  font-size:80px;
   align-items: center;
+  
 }
 header div {
   background-color: brown;
@@ -24,7 +25,7 @@ header div {
 
 header div img {
   width: 150px;
-  background-color: rgb(18, 132, 207);
+  background-color: rgb(19, 141, 223);
 }
 
 header nav ul {
@@ -37,11 +38,11 @@ header nav ul li a {
 header nav ul li {
   padding: 10px;
   margin: 10px;
-  background-color: chocolate;
+  background-color: rgb(235, 140, 31);
   border-radius: 20px;
 }
 header nav ul li a {
-  color: darkblue;
+  color: rgb(2, 2, 75);
 }
 
 /*comienzo de estilos en main*/
@@ -57,7 +58,7 @@ main {
   box-sizing: border-box;
 }
 main h2 {
-  background-color: rgb(44, 70, 221);
+  background-color: rgb(111, 170, 77);
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 15px;
