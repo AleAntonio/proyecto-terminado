@@ -33,7 +33,7 @@ header nav ul {
   display: flex;
 }
 header nav ul li a {
-  text-decoration: none;
+  text-decoration:none;
 }
 header nav ul li {
   padding: 10px;
@@ -42,7 +42,9 @@ header nav ul li {
   border-radius: 20px;
 }
 header nav ul li a {
+font-style: italic;
   color: rgb(2, 2, 75);
+
 }
 
 /*comienzo de estilos en main*/
@@ -161,12 +163,18 @@ footer p {
 
 @media (max-width: 480px) {
   header {
-    background-color:rgb(27, 100, 196)
+    background-color:rgb(146, 156, 52)
   }
   header ul {
     flex-direction: column;
     gap: 10px;
     
+  }
+  header nav ul li {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(130, 129, 143);
+    border-radius: 20px;
   }
   main {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE3m_eXecxcCiA7Fiu3RXLkZp4jYP3q6mFGA&usqp=CAU);
