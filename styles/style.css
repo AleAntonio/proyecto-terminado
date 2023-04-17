@@ -14,8 +14,8 @@ header {
   align-items: center;
 }
 header h1 {
-  font-style:italic;
-  font-size:60px;
+  font-style: italic;
+  font-size: 60px;
   align-items: center;
   
 }
@@ -33,18 +33,18 @@ header nav ul {
   display: flex;
 }
 header nav ul li a {
-  text-decoration:none;
+  text-decoration: none;
 }
 header nav ul li {
   padding: 10px;
   margin: 10px;
   background-color: rgb(235, 140, 31);
   border-radius: 20px;
+  border: 3px solid #bccf0a;
 }
 header nav ul li a {
-font-style: italic;
+  font-style: italic;
   color: rgb(2, 2, 75);
-
 }
 
 /*comienzo de estilos en main*/
@@ -52,7 +52,6 @@ main {
   background-image: url(https://i.ytimg.com/vi/jQzLjISEeas/maxresdefault.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 main {
   background-color: coral;
@@ -61,7 +60,7 @@ main {
 }
 main h2 {
   background-color: rgb(111, 170, 77);
-  padding: 20px;
+  padding: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 15px;
 
@@ -71,11 +70,14 @@ main h2 {
 main p {
   text-align: justify;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  align-items: center;
 }
 main img {
   width: 300px;
   text-align: center;
-  padding: 20px;
+  border-radius: 20px;
+  border: 5px solid greenyellow;
 }
 
 .container {
@@ -98,15 +100,15 @@ main img {
 }
 
 .tarjeta {
-  width: 220px;
+  width: 200px;
   height: 280px;
-  border: 3px solid #dcf125;
+  border: 3px solid #bccf0a;
   background-color: #169eb4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px;
-  border-radius: 15px;
+  margin: 15px;
+  border-radius: 30px;
   font-family: sans-serif;
   color: white;
   text-align: center;
@@ -135,10 +137,11 @@ footer div nav ul {
 footer p {
   padding: 5px;
   margin: 5px;
-  background-color:darksalmon;
+  background-color: rgb(194, 113, 86);
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px solid #bccf0a;
 }
 
 /*media querie o punto de quibre*/
@@ -163,12 +166,11 @@ footer p {
 
 @media (max-width: 480px) {
   header {
-    background-color:rgb(235, 179, 75)
+    background-color: rgb(235, 179, 75);
   }
   header ul {
     flex-direction: column;
     gap: 10px;
-    
   }
   header nav ul li {
     padding: 10px;
