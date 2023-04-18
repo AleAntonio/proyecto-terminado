@@ -16,9 +16,11 @@ fetch("https://rickandmortyapi.com/api/character")
                         <div class="contenedor-img">
                            <img src =${dataApi[i].image} alt=${dataApi[i].name}>
                          </div>
-                        <p>
-                         ${dataApi[i].name}
-                        </p>
+                         <p>${dataApi[i].name}</p>
+                         <p>${dataApi[i].species}</p>
+                         
+                         
+                       
                        
                     </div >
             `;
