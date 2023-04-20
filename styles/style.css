@@ -66,6 +66,7 @@ main h2 {
   background-color: rgb(111, 170, 77);
   padding: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
   margin: 15px;
   text-decoration: aliceblue;
   border: 5px solid rgb(158, 226, 50);
@@ -74,6 +75,8 @@ main h2 {
 main p {
   text-align: justify;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  color: white;
   padding: 10px;
   align-items: center;
 }

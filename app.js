@@ -19,8 +19,6 @@ fetch("https://rickandmortyapi.com/api/character")
                          <p>${dataApi[i].name}</p>
                          <p>${dataApi[i].species}</p>
                          
-                         
-                       
                        
                     </div >
             `;
